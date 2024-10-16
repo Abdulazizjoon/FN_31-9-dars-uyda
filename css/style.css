@@ -17,4 +17,8 @@
     background-color: #333;
     color: #fff;
   }
+  #x{
+    display: none;
+    /* position: absolute; */
+  }
   

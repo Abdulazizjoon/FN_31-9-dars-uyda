@@ -41,3 +41,29 @@ button.onclick = () => {
     main.style.backgroundColor = "";
   }
 };
+let price = document.querySelector('#price')
+let x = document.querySelector("#x");
+price.addEventListener('click',function() {
+  x.style.display='block'
+})
+x.addEventListener('click',function() {
+  price.value = ''
+  x.style.display='none'
+})
+
+// if (price) {
+//   price.addEventListener("click", function () {
+//     if (price.style.display === "none" || price.style.display === "") {
+//       price.style.display = "block";
+//       console.log(true);
+      
+//     } else {
+//       price.style.display = "none";
+//       console.log('hato');
+      
+//     }
+//   });
+// } else {
+//   console.log(false);
+  
+// }
